@@ -454,3 +454,315 @@ a {
   border-radius: 12px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
+
+.contact-banner {
+  position: relative;
+  height: 300px;
+  background: url('./image.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4%;
+  margin-bottom: 0px;
+  margin-left:10px;
+  
+}
+
+.contact-overlay {
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.3); /* optional dark overlay */
+  color: #fff;
+  text-align: center;
+  width: 100%;;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.breadcrumb span {
+  color: #ccc;
+}
+
+.contact-heading {
+  font-size: 56px;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+.contact-section {
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  color: #001f5b;
+}
+
+.contact-info h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-info h2 {
+  font-size: 32px;
+  margin: 10px 0 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-info i {
+  color: #001f5b;
+  font-size: 18px;
+}
+
+.map {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 15px;
+  font-size: 18px;
+  background-color: #635bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4c45d0;
+}
+
+
+
+
+
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cart header (logo) */
+.cart-header {
+  text-align: left;
+}
+
+.cart-logo {
+  width: 120px;
+}
+
+/* Cart content */
+.cart-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Cart title */
+.cart-title {
+  font-size: 36px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+/* Empty cart message */
+.cart-empty {
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.cart-empty p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Return to shop button */
+.cart-return-btn {
+  padding: 10px 20px;
+  background-color: #1a1460; /* Customize with your brand color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.cart-return-btn:hover {
+  background-color: #34495e; /* Darker shade on hover */
+}
+
+
+
+
+
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10%; /* Adjusted padding to 10% */
+}
+
+.login-header {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.login-logo {
+  width: 120px;
+}
+
+.login-form-container {
+  width: 100%;
+  max-width: 450px;
+  background-color: #fff;
+  padding: 30px;  /* Internal padding inside the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === Titles === */
+.login-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login-subtitle {
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* === Input Group === */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 38px;
+  cursor: pointer;
+}
+
+/* === Remember Me === */
+.remember-me {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a1460;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Removed hover effect */
+
+/* === Forgot Password Link === */
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #1a1460;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
