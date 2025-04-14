@@ -1,208 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="test.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-  <title>Navbar with Dropdown</title>
+  <title>KamyaFoods</title>
 </head>
+
 <body>
-    <div id="main-body">
-  <nav class="navbar">
-    <div class="logo">
-      <a href="#"><img src="./Image/Kamya-Logo-01-1.png" alt="Kamya Logo" /></a>
-    </div>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li class="dropdown">
-        <a href="store.html">Store ▼</a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Kamya Mixed Grain Sattu</a></li>
-          <li><a href="#">Kamya Lite Mixed Grain Sattu</a></li>
-          <li><a href="#">Kamya Supreme Mixed Grain Sattu</a></li>
-        </ul>
-      </li>
-      <li><a href="contactUs.html">Contact Us</a></li>
-      <li><a href="checkout.html">Checkout</a></li>
-      <li><a href="cart.html">Cart</a></li>
-      <li><a href="account.html">Account</a></li>
-    </ul>
-    <div class="cart-box">
-      ₹0.00 <span class="cart-icon">🛒</span>
-    </div>
-  </nav>
+  <div id="main-body">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="./Image/Kamya-Logo-01-1.png" alt="Kamya Logo" /></a>
+      </div>
 
-  <section class="bannerSection">
-    <div class="banner1">
+      <!-- Hamburger toggle -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">☰</label>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li class="dropdown">
+          <a href="store.html">Store ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Kamya Mixed Grain Sattu</a></li>
+            <li><a href="#">Kamya Lite Mixed Grain Sattu</a></li>
+            <li><a href="#">Kamya Supreme Mixed Grain Sattu</a></li>
+          </ul>
+        </li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="account.html">Account</a></li>
+      </ul>
+
+      <div class="cart-box">
+        ₹0.00 <span class="cart-icon">🛒</span>
+      </div>
+    </nav>
+
+    <section class="bannerSection">
+      <div class="banner1">
         <img src="./Image/Regular-Sattu-2-scaled.jpg" alt="Kamya Banner" class="banner-image" />
-    </div>
-    <div class="banner2">
+      </div>
+      <div class="banner2">
         <img src="./Image/Sattu-Breakfast-2.jpg" alt="" class="banner-width">
-    <div class="banner3">
-    <div><img src="./Image/Sattu-Drink-2.jpg" alt="" class="banner-width"></div>
-  </section>
+        <div class="banner3">
+          <div><img src="./Image/Sattu-Drink-2.jpg" alt="" class="banner-width"></div>
+    </section>
 
-  
-  
-  <!-- div body content top selling-->
-  <section id="topSelling">
-    <h2 class="section-title">Top Selling</h2>
-    <div class="product-container">
-  
-      <div class="product-card">
-        <span class="sale-tag">Sale!</span>
-        <a href="product1.html">
-          <img src="./Image/kamay-copy.png" alt="Kamya Lite Mixed Grain Sattu">
-        </a>
-        <a href="product1.html">
-          <h3>Kamya Lite Mixed Grain Sattu</h3>
-        </a>
-      </div>
-  
-      <div class="product-card">
-        <span class="sale-tag">Sale!</span>
-        <a href="product2.html">
-          <img src="./Image/frgfes.png" alt="Kamya Supreme Mixed Grain Sattu">
-        </a>
-        <a href="product2.html">
-          <h3>Kamya Supreme Mixed Grain Sattu</h3>
-        </a>
-      </div>
-  
-      <div class="product-card">
-        <span class="sale-tag">Sale!</span>
-        <a href="product3.html">
-          <img src="./Image/dfds.jpg" alt="Kamya Mixed Grain Sattu">
-        </a>
-        <a href="product3.html">
-          <h3>Kamya Mixed Grain Sattu</h3>
-        </a>
-      </div>
-  
-    </div>
-  </section>
 
-  <section class="bannerSection bannerMiddle">
-    <div class="banner1">
+
+    <!-- div body content top selling-->
+    <section id="topSelling">
+      <h2 class="section-title">Top Selling</h2>
+      <div class="product-container">
+
+        <div class="product-card">
+          <span class="sale-tag">Sale!</span>
+          <a href="product1.html">
+            <img src="./Image/kamay-copy.png" alt="Kamya Lite Mixed Grain Sattu">
+          </a>
+          <a href="product1.html">
+            <h3>Kamya Lite Mixed Grain Sattu</h3>
+          </a>
+        </div>
+
+        <div class="product-card">
+          <span class="sale-tag">Sale!</span>
+          <a href="product2.html">
+            <img src="./Image/frgfes.png" alt="Kamya Supreme Mixed Grain Sattu">
+          </a>
+          <a href="product2.html">
+            <h3>Kamya Supreme Mixed Grain Sattu</h3>
+          </a>
+        </div>
+
+        <div class="product-card">
+          <span class="sale-tag">Sale!</span>
+          <a href="product3.html">
+            <img src="./Image/dfds.jpg" alt="Kamya Mixed Grain Sattu">
+          </a>
+          <a href="product3.html">
+            <h3>Kamya Mixed Grain Sattu</h3>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bannerSection bannerMiddle">
+      <div class="banner1">
         <img src="./Image/Amazon-Store-Page-4-scaled.jpg" alt="Kamya Banner" class="banner-image1" />
-    </div>
-    <div class="banner1">
+      </div>
+      <div class="banner1">
         <img src="./Image/Amazon-Store-Page-5-scaled.jpg" alt="Kamya Banner" class="banner-image2" />
-    </div>
-</section>
-
-  
-  
-
-  <!-- Feature Products Section -->
-  <div class="containerFeature">
-    <h1><span class="title-blue">Feature</span> <span class="title-pink">Products</span></h1>
-    <div class="grid">
-      <div class="product-card-feature">
-        <img src="./Image/chana sattu.jpeg" alt="Chana Sattu">
       </div>
-      <div class="product-card-feature">
-        <img src="./Image/ragi flour.jpeg" alt="Ragi Flour">
-      </div>
-      <div class="product-card-feature">
-        <img src="./Image/besan.jpeg" alt="Besan">
-      </div>
-      <div class="product-card-feature">
-        <img src="./Image/sugar.jpeg" alt="Sugar">
-      </div>
-      <div class="product-card-feature">
-        <img src="./Image/wheat flour.jpeg" alt="Wheat Flour">
-      </div>
-      <div class="product-card-feature">
-        <img src="./Image/rice powder.jpeg" alt="Rice Powder">
-      </div>
-    </div>
-  </div>
+    </section>
 
 
 
 
-
-<!-- footer started -->
- 
-<!-- Footer -->
-<footer class="footer">
-    <div class="footer-container">
-
-      <!-- Logo and Description -->
-      <div class="footer-column logo-column">
-        <img src="./Image/Kamya-Logo-01-1.png" alt="Kamya Logo" class="logo">
-        <h2>Kamyafoods</h2>
-        <p>
-          Mahakali Attakala, founded in 1965, has earned its place in Odia kitchens thanks to high-quality products and loyal customers. Our success is due to word-of-mouth promotion by customers who value our trust and commitment. We source the finest ingredients, process them meticulously, and deliver them in top-notch packaging.
-        </p>
-        <div class="social-icons">
-          <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-          <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-          <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+    <!-- Feature Products Section -->
+    <div class="containerFeature">
+      <h1><span class="title-blue">Feature</span> <span class="title-pink">Products</span></h1>
+      <div class="grid">
+        <div class="product-card-feature">
+          <img src="./Image/chana sattu.jpeg" alt="Chana Sattu">
+        </div>
+        <div class="product-card-feature">
+          <img src="./Image/ragi flour.jpeg" alt="Ragi Flour">
+        </div>
+        <div class="product-card-feature">
+          <img src="./Image/besan.jpeg" alt="Besan">
+        </div>
+        <div class="product-card-feature">
+          <img src="./Image/sugar.jpeg" alt="Sugar">
+        </div>
+        <div class="product-card-feature">
+          <img src="./Image/wheat flour.jpeg" alt="Wheat Flour">
+        </div>
+        <div class="product-card-feature">
+          <img src="./Image/rice powder.jpeg" alt="Rice Powder">
         </div>
       </div>
-
-      <!-- Popular Products -->
-      <div class="footer-column">
-        <h3>Popular Products</h3>
-        <ul>
-          <li>Multi Grain Sattu</li>
-          <li>Supreme Grain Sattu</li>
-          <li>Lite Grain Sattu</li>
-        </ul>
-      </div>
-
-      <!-- Quick Links -->
-      <div class="footer-column">
-        <h3>Quick Links</h3>
-        <ul>
-          <li>Home</li>
-
-
-          <!-- test -->
-          <li class="dropdown">
-            <a href="#">Store ▼</a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Kamya Mixed Grain Sattu</a></li>
-              <li><a href="#">Kamya Lite Mixed Grain Sattu</a></li>
-              <li><a href="#">Kamya Supreme Mixed Grain Sattu</a></li>
-            </ul>
-          </li>
-
-
-          <li>Contact Us</li>
-          <li>Checkout</li>
-          <li>Cart</li>
-          <li>Account</li>
-          <li>Privacy Policy</li>
-          <li>Term & Conditions</li>
-          <li>Return and Refund</li>
-        </ul>
-      </div>
-
-      <!-- Get In Touch -->
-      <div class="footer-column">
-        <h3>Get In Touch</h3>
-        <p>Plot No. 7, Unit–3,<br>Janpath,<br>Bhubaneswar, India 751001.</p>
-        <p>Email: info@kamyafoods.com</p>
-        <p>Phone: 1800 88 49394</p>
-        <p>Hours: Mon–Sat<br>9:00AM – 7:00PM</p>
-      </div>
-
     </div>
-  </footer>
 
-  <!-- Footer Bottom -->
-  <div class="footer-bottom">
-    <p>© 2024 <strong>Kamya Foods.</strong> Designed by <strong>Createxbrand.</strong></p>
-  </div>
+
+
+
+
+    <!-- footer started -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+
+        <!-- Logo and Description -->
+        <div class="footer-column logo-column">
+          <img src="./Image/Kamya-Logo-01-1.png" alt="Kamya Logo" class="logo">
+          <h2>Kamyafoods</h2>
+          <p>
+            Mahakali Attakala, founded in 1965, has earned its place in Odia kitchens thanks to high-quality products
+            and loyal customers. Our success is due to word-of-mouth promotion by customers who value our trust and
+            commitment. We source the finest ingredients, process them meticulously, and deliver them in top-notch
+            packaging.
+          </p>
+          <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+          </div>
+        </div>
+
+        <!-- Popular Products -->
+        <div class="footer-column">
+          <h3>Popular Products</h3>
+          <ul>
+            <li>Multi Grain Sattu</li>
+            <li>Supreme Grain Sattu</li>
+            <li>Lite Grain Sattu</li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>Home</li>
+
+
+            <!-- test -->
+            <li class="dropdown">
+              <a href="#">Store ▼</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Kamya Mixed Grain Sattu</a></li>
+                <li><a href="#">Kamya Lite Mixed Grain Sattu</a></li>
+                <li><a href="#">Kamya Supreme Mixed Grain Sattu</a></li>
+              </ul>
+            </li>
+
+
+            <li>Contact Us</li>
+            <li>Checkout</li>
+            <li>Cart</li>
+            <li>Account</li>
+            <li>Privacy Policy</li>
+            <li>Term & Conditions</li>
+            <li>Return and Refund</li>
+          </ul>
+        </div>
+
+        <!-- Get In Touch -->
+        <div class="footer-column">
+          <h3>Get In Touch</h3>
+          <p>Plot No. 7, Unit–3,<br>Janpath,<br>Bhubaneswar, India 751001.</p>
+          <p>Email: info@kamyafoods.com</p>
+          <p>Phone: 1800 88 49394</p>
+          <p>Hours: Mon–Sat<br>9:00AM – 7:00PM</p>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>© 2024 <strong>Kamya Foods.</strong> Designed by <strong>Createxbrand.</strong></p>
+    </div>
     <!-- footer end -->
 
 
-  <!-- main body div closing -->
-</div>
+    <!-- main body div closing -->
+  </div>
 </body>
+
 </html>
